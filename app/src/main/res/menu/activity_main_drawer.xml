@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/store"
+            android:title="Store" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/web"
+            android:title="Anonymous Networks" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/chat"
+            android:title="Instant messanging" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/email"
+            android:title="Email Clients" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/home"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
